@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+body {
+    background-image: url(./img/bg.jpg);
+    background-color: #262626;
+    color: #fff;
+    text-align: center;
+    margin-top: 120px;
+    background-position: center;
+    background-size: cover;
+}
+
+button {
+    font-weight: 700;
+    padding: 12px;
+    margin-top: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input {
+    font-size: 18px;
+    padding: 4px;
+    margin-top: 6px;
+    border-radius: 6px;
+}
+
+h2 {
+    color: #000;
+    margin-top: 12px;
+}
+
+.container-calculadora {
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+.calculando {
+    height: 140px;
+    width: 250px;
+    background-color: #262626;
+    border-radius: 6px;
+    left: 50%;
+    border-top: 12px solid yellow;
+}
+
+.calculando p {
+    margin-top: 12px;
+}
+
+.totalapagar {
+    color: yellow;
+    font-size: 23px;
+    margin-top: 12px;
+}
+
+
+footer {
+    margin-top: 250px;
+    font-size: 13px;
+    color: #white;
+}
+
+span {
+    color: yellow;
+}
